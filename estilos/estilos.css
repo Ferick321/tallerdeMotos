@@ -1,0 +1,74 @@
+/* Asegura que html y body ocupen toda la altura */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', sans-serif;
+    
+    
+}
+
+/* Asegúrate de que el contenedor del login no se sobrepase */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+/* Contenedor del login centrado */
+.login-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Imágenes responsivas */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* h2 letra elegante modif */
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #2c2c2c;
+    text-align: center;
+    letter-spacing: 1px;
+}
+/* css del dashboard*/
+.card-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.stat-card {
+    transition: transform 0.3s;
+}
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+ }
+.stat-card {
+    transition: transform 0.3s;
+}
+ .stat-card:hover {
+    transform: translateY(-5px);
+}
